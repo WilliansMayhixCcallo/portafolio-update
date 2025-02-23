@@ -4,7 +4,6 @@ import { Label } from '@/components/ui/label'
 import React from 'react'
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from '@/components/ui/button'
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
 import { CustomCard } from '@/components/custom/CustomCard'
 export const Contact = () => {
   return (

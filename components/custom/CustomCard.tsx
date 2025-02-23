@@ -3,9 +3,9 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 
 interface Props {
   children: React.ReactNode;
-  title?: String;
-  description?: String;
-  className?: String;
+  title?: string;
+  description?: string;
+  className?: string;
   footerChildren?: React.ReactNode;
 
 }

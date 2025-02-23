@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image'
 import React from 'react'
-import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
+
 export const Skill = () => {
   const images = [
     '/img/materialui.png',

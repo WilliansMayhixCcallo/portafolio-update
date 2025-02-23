@@ -2,12 +2,12 @@
 import Link from "next/link"
 
 import { useBoolean } from "@/hook/useBoolean"
-import { IoCartOutline } from "react-icons/io5"
+
 import { ModeToggle } from "../custom/ModeToggle"
 
 
 export const Header = () => {
-  const [isOpen, isClose, state] = useBoolean()
+  const [isOpen] = useBoolean()
   return (
     <nav className="flex px-5 justify-between items-center w-full">
       <div>
