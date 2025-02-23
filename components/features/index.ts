@@ -1,0 +1,6 @@
+export * from "./skill/Skill"
+export * from "./projects/Projects"
+export * from "./contact/Contact"
+export * from "./About/About"
+export* from "./About/ProfileAbout"
+export*from "./projects/Projects"
